@@ -4,13 +4,20 @@ import requests
 
 
 # API URL
-API_URL = "http://127.0.0.1:8000"  # Update with your FastAPI server URL if deployed remotely
+API_URL = "http://127.0.0.1:8001"  # Update with your FastAPI server URL if deployed remotely
 
 # Streamlit app title and header
-st.title("Perfume Recommender System")
+st.title("Perfume Recommender System ⚱️✨")
 
+st.markdown("""
+**With a wide range of perfumes to choose from, it can be challenging to find your perfect scent.** 🌿
 
-st.write("Select the features to get perfume recommendations.")
+**We're here to help!** Based on your **character**, **preferred fragrance family**, and **desired concentration**, we'll provide you with top recommendations that match your unique style. ✨
+
+**Discover the perfumes that resonate with you and make every moment unforgettable.** 
+""")
+
+st.write("## Let's begin exploring your perfect fragrance!")
 
 # Dropdown options for the features
 gender_options = ['Kids', 'Men', 'Unisex', 'Women']
@@ -33,10 +40,10 @@ concentration_options = [
 ]
 
 # Dropdown inputs for the user
-gender = st.selectbox("Gender", gender_options)
-character = st.selectbox("Character", character_options)
-fragrance_family = st.selectbox("Fragrance Family", fragrance_family_options)
-concentration = st.selectbox("Concentration", concentration_options)
+gender = st.selectbox("Select the fragrance group that represents you", gender_options)
+character = st.selectbox("How would you like your fragrance to express your character? 🎭", character_options)
+fragrance_family = st.selectbox("What fragrance family best captures your essence?", fragrance_family_options)
+concentration = st.selectbox("What concentration suits your style?", concentration_options)
 
 # Submit button
 if st.button("Get Recommendations"):
@@ -56,13 +63,17 @@ if st.button("Get Recommendations"):
         recommendations = response.json()
         
         if recommendations:
-            st.write("### Top Recommendations:")
+            
+            st.write("### Here are your top perfume picks!")
             for rec in recommendations:
                 st.write(f"**Name:** {rec['الاسم']}")
                 st.write(f"**Rating:** {rec['rating']} ⭐")
                 st.write(f"**Total Ratings:** {rec['total_ratings']}")
                 st.write(f"**Price:** {rec['السعر النهائي']} SAR")
-                st.markdown(f"![Alt Text]({rec['img']})")
+                st.markdown(f"""
+                           <div style="width: 300px; height: 300px; overflow: hidden; border-radius: 8px;">
+                           <img src="{rec['img']}" alt="Perfume Image" style="width: 100%; height: 100%; object-fit: cover;"></div>
+                           """, unsafe_allow_html=True)
                 st.markdown("---")
         else:
             st.write("No recommendations found!")
