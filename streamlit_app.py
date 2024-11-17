@@ -1,11 +1,14 @@
 import streamlit as st
 import requests
 
+
+
 # API URL
 API_URL = "http://127.0.0.1:8000"  # Update with your FastAPI server URL if deployed remotely
 
 # Streamlit app title and header
 st.title("Perfume Recommender System")
+
 
 st.write("Select the features to get perfume recommendations.")
 
