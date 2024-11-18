@@ -4,7 +4,7 @@ import requests
 
 
 # API URL
-API_URL = "http://127.0.0.1:8000"  # Update with your FastAPI server URL if deployed remotely
+API_URL = "https://usecase-8-project-5-ppbi.onrender.com"  # Update with your FastAPI server URL if deployed remotely
 
 # Streamlit app title and header
 st.title("Perfume Recommender System ⚱️✨")
