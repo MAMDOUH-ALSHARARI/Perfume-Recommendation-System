@@ -25,17 +25,17 @@ class InputFeatures(BaseModel):
     Gender: str
     Character: str
     Fragrance_Family: str
-    Concentration: str
+    # Concentration: str
 
 # Preprocessing function
 def preprocess_input(input_features: InputFeatures):
     # Encode the input features
     encoded_input = {
         'Gender': {
-            'Kids': 0,
-            'Men': 1,
-            'Unisex': 2,
-            'Women': 3
+            # 'Kids': 0,
+            'Men': 0,
+            'Unisex': 1,
+            'Women': 2
         }.get(input_features.Gender, -1),
         'Character': {
             'Charismatic': 0,
@@ -91,17 +91,17 @@ def preprocess_input(input_features: InputFeatures):
             'Woody,Oud': 36,
             'Woody,Woody': 37
         }.get(input_features.Fragrance_Family, -1),
-        'Concentration': {
-            'Eau Fraiche': 0,
-            'Eau de Cologne': 1,
-            'Eau de Parfum': 2,
-            'Eau de Parfum Intense': 3,
-            'Eau de Senteur': 4,
-            'Eau de Toilette': 5,
-            'Extrait de Parfum': 6,
-            'Parfum': 7,
-            'Perfume Oil': 8
-        }.get(input_features.Concentration, -1)
+        # 'Concentration': {
+        #     'Eau Fraiche': 0,
+        #     'Eau de Cologne': 1,
+        #     'Eau de Parfum': 2,
+        #     'Eau de Parfum Intense': 3,
+        #     'Eau de Senteur': 4,
+        #     'Eau de Toilette': 5,
+        #     'Extrait de Parfum': 6,
+        #     'Parfum': 7,
+        #     'Perfume Oil': 8
+        # }.get(input_features.Concentration, -1)
     }
 
     # Convert dictionary values to a list in the correct order
