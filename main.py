@@ -15,9 +15,9 @@ app = FastAPI()
 def read_root():
     return {"message": "Welcome to Tuwaiq Academy"}
 # get request
-@app.get("/items/")
-def create_item(item: dict):
-    return {"item": item}
+# @app.get("/items/")
+# def create_item(item: dict):
+#     return {"item": item}
 
 from pydantic import BaseModel
 # Pydantic model for user input validation
@@ -111,15 +111,15 @@ def preprocess_input(input_features: InputFeatures):
     scaled_features = scaler.transform([list(encoded_input.values())])
     return scaled_features
 
-@app.get("/predict")
-def predict(input_features: InputFeatures):
-    return preprocess_input(input_features)
+# @app.get("/predict")
+# def predict(input_features: InputFeatures):
+#     return preprocess_input(input_features)
 
-@app.post("/predict")
-async def predict(input_features: InputFeatures):
-    data = preprocess_input(input_features)
-    y_pred = kmeans_model.predict(data)
-    return {"pred": y_pred.tolist()[0]}
+# @app.post("/predict")
+# async def predict(input_features: InputFeatures):
+#     data = preprocess_input(input_features)
+#     y_pred = kmeans_model.predict(data)
+#     return {"pred": y_pred.tolist()[0]}
 
 # Recommendation endpoint
 @app.post("/recommend")
