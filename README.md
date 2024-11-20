@@ -4,13 +4,15 @@
 
 # Perfume Recommendation System
 
+## Our stramlit app link: https://perfume-recommendation.streamlit.app/
 
+---
 ## Team Members
-- .
--  .
-- .
-- .
-- .
+- Abdullah alhokbanl
+- Mamdouh Alsharari
+- Abdulkrem Al Shammari
+- Taif Alanazi
+- Adel Albagmi
 
 ---
 ## Problem Statement
@@ -80,7 +82,7 @@ The modeling process included the following steps:
 
 ## Deploy the Model
 
-The deployment phase involved creating an interactive application to demonstrate the model’s functionality:
+The deployment phase involved creating an interactive application to demonstrate the modelâ€™s functionality:
 1. **API Endpoint**:
    - Developed a FastAPI endpoint to serve the clustering model.
 2. **User Interface**:
