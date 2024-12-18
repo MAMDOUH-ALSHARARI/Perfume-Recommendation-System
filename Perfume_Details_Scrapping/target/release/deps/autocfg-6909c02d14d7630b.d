@@ -1,0 +1,10 @@
+C:\Users\dohai\Tuwaiq-DS-ML-bootcamp-V-8\CV_Projects\Perfume-Recommendation-System\Perfume_Details_Scrapping\target\release\deps\libautocfg-6909c02d14d7630b.rmeta: C:\Users\dohai\.cargo\registry\src\index.crates.io-6f17d22bba15001f\autocfg-1.4.0\src/lib.rs C:\Users\dohai\.cargo\registry\src\index.crates.io-6f17d22bba15001f\autocfg-1.4.0\src\error.rs C:\Users\dohai\.cargo\registry\src\index.crates.io-6f17d22bba15001f\autocfg-1.4.0\src\rustc.rs C:\Users\dohai\.cargo\registry\src\index.crates.io-6f17d22bba15001f\autocfg-1.4.0\src\version.rs
+
+C:\Users\dohai\Tuwaiq-DS-ML-bootcamp-V-8\CV_Projects\Perfume-Recommendation-System\Perfume_Details_Scrapping\target\release\deps\libautocfg-6909c02d14d7630b.rlib: C:\Users\dohai\.cargo\registry\src\index.crates.io-6f17d22bba15001f\autocfg-1.4.0\src/lib.rs C:\Users\dohai\.cargo\registry\src\index.crates.io-6f17d22bba15001f\autocfg-1.4.0\src\error.rs C:\Users\dohai\.cargo\registry\src\index.crates.io-6f17d22bba15001f\autocfg-1.4.0\src\rustc.rs C:\Users\dohai\.cargo\registry\src\index.crates.io-6f17d22bba15001f\autocfg-1.4.0\src\version.rs
+
+C:\Users\dohai\Tuwaiq-DS-ML-bootcamp-V-8\CV_Projects\Perfume-Recommendation-System\Perfume_Details_Scrapping\target\release\deps\autocfg-6909c02d14d7630b.d: C:\Users\dohai\.cargo\registry\src\index.crates.io-6f17d22bba15001f\autocfg-1.4.0\src/lib.rs C:\Users\dohai\.cargo\registry\src\index.crates.io-6f17d22bba15001f\autocfg-1.4.0\src\error.rs C:\Users\dohai\.cargo\registry\src\index.crates.io-6f17d22bba15001f\autocfg-1.4.0\src\rustc.rs C:\Users\dohai\.cargo\registry\src\index.crates.io-6f17d22bba15001f\autocfg-1.4.0\src\version.rs
+
+C:\Users\dohai\.cargo\registry\src\index.crates.io-6f17d22bba15001f\autocfg-1.4.0\src/lib.rs:
+C:\Users\dohai\.cargo\registry\src\index.crates.io-6f17d22bba15001f\autocfg-1.4.0\src\error.rs:
+C:\Users\dohai\.cargo\registry\src\index.crates.io-6f17d22bba15001f\autocfg-1.4.0\src\rustc.rs:
+C:\Users\dohai\.cargo\registry\src\index.crates.io-6f17d22bba15001f\autocfg-1.4.0\src\version.rs:

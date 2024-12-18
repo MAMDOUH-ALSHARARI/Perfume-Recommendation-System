@@ -1,0 +1,11 @@
+C:\Users\dohai\Tuwaiq-DS-ML-bootcamp-V-8\CV_Projects\Perfume-Recommendation-System\Perfume_Details_Scrapping\target\release\deps\libphf-59578b30067084ba.rmeta: C:\Users\dohai\.cargo\registry\src\index.crates.io-6f17d22bba15001f\phf-0.10.1\src/lib.rs C:\Users\dohai\.cargo\registry\src\index.crates.io-6f17d22bba15001f\phf-0.10.1\src\map.rs C:\Users\dohai\.cargo\registry\src\index.crates.io-6f17d22bba15001f\phf-0.10.1\src\ordered_map.rs C:\Users\dohai\.cargo\registry\src\index.crates.io-6f17d22bba15001f\phf-0.10.1\src\ordered_set.rs C:\Users\dohai\.cargo\registry\src\index.crates.io-6f17d22bba15001f\phf-0.10.1\src\set.rs
+
+C:\Users\dohai\Tuwaiq-DS-ML-bootcamp-V-8\CV_Projects\Perfume-Recommendation-System\Perfume_Details_Scrapping\target\release\deps\libphf-59578b30067084ba.rlib: C:\Users\dohai\.cargo\registry\src\index.crates.io-6f17d22bba15001f\phf-0.10.1\src/lib.rs C:\Users\dohai\.cargo\registry\src\index.crates.io-6f17d22bba15001f\phf-0.10.1\src\map.rs C:\Users\dohai\.cargo\registry\src\index.crates.io-6f17d22bba15001f\phf-0.10.1\src\ordered_map.rs C:\Users\dohai\.cargo\registry\src\index.crates.io-6f17d22bba15001f\phf-0.10.1\src\ordered_set.rs C:\Users\dohai\.cargo\registry\src\index.crates.io-6f17d22bba15001f\phf-0.10.1\src\set.rs
+
+C:\Users\dohai\Tuwaiq-DS-ML-bootcamp-V-8\CV_Projects\Perfume-Recommendation-System\Perfume_Details_Scrapping\target\release\deps\phf-59578b30067084ba.d: C:\Users\dohai\.cargo\registry\src\index.crates.io-6f17d22bba15001f\phf-0.10.1\src/lib.rs C:\Users\dohai\.cargo\registry\src\index.crates.io-6f17d22bba15001f\phf-0.10.1\src\map.rs C:\Users\dohai\.cargo\registry\src\index.crates.io-6f17d22bba15001f\phf-0.10.1\src\ordered_map.rs C:\Users\dohai\.cargo\registry\src\index.crates.io-6f17d22bba15001f\phf-0.10.1\src\ordered_set.rs C:\Users\dohai\.cargo\registry\src\index.crates.io-6f17d22bba15001f\phf-0.10.1\src\set.rs
+
+C:\Users\dohai\.cargo\registry\src\index.crates.io-6f17d22bba15001f\phf-0.10.1\src/lib.rs:
+C:\Users\dohai\.cargo\registry\src\index.crates.io-6f17d22bba15001f\phf-0.10.1\src\map.rs:
+C:\Users\dohai\.cargo\registry\src\index.crates.io-6f17d22bba15001f\phf-0.10.1\src\ordered_map.rs:
+C:\Users\dohai\.cargo\registry\src\index.crates.io-6f17d22bba15001f\phf-0.10.1\src\ordered_set.rs:
+C:\Users\dohai\.cargo\registry\src\index.crates.io-6f17d22bba15001f\phf-0.10.1\src\set.rs:
