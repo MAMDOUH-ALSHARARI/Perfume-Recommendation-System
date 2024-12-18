@@ -4,7 +4,7 @@
 
 # Perfume Recommendation System
 
-## Our stramlit app link: https://perfume-recommendation.streamlit.app/
+## Our stramlit app link: https://perfume-recommendation-system-app.onrender.com
 
 ---
 ## Team Members
